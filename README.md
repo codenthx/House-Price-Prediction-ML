@@ -71,6 +71,30 @@ The model learns relationships between house features and final selling prices.
           Final Model Selection
 
 ---
+# 📊 Exploratory Data Analysis (EDA)
+
+Before training machine learning models, the dataset was analyzed to understand:
+
+- Missing values
+- Data distribution
+- Feature characteristics
+- Patterns within the housing data
+
+---
+
+## Missing Values Analysis
+
+Missing values were analyzed to understand incomplete information in the dataset.
+
+![Missing Values Analysis](images/missing_values.png)
+
+---
+
+## Sale Price Distribution
+
+The target variable (`SalePrice`) was visualized to understand the distribution of house prices.
+
+![Sale Price Distribution](images/sale_price_distribution.png)
 
 🤖 Models Implemented
 
