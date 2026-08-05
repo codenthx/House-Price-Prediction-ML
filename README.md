@@ -209,6 +209,43 @@ Best value:
 K = 7
 
 ---
+# 🏆 Model Performance Comparison
+
+Multiple regression algorithms were trained and evaluated using the same dataset split.
+
+The models were compared using:
+
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+- R² Score
+
+| Model | R² Score | Performance |
+|---|---:|---|
+| 🌳 Decision Tree Regressor | 0.7955 | ⭐ Best |
+| KNN Regressor | 0.7285 | Good |
+| Linear Regression | 0.6555 | Baseline |
+| SVR | -0.0245 | Poor |
+
+---
+
+# 🥇 Final Model
+
+## Decision Tree Regressor
+
+The Decision Tree Regressor achieved the highest R² score of approximately: 0.7955
+It was selected as the final model because it was able to capture complex and non-linear relationships between housing features and prices. 
+
+The trained model was saved as: models/best_decision_tree_model.pkl
+---
+
+# 📈 Key Insights
+
+From the experiments:
+
+- Simple models can provide useful baselines.
+- Complex algorithms do not always guarantee better performance.
+- Model evaluation and comparison are essential before selecting a final model.
+- Hyperparameter tuning can improve algorithm performance.
 
 📁 Project Structure
 
